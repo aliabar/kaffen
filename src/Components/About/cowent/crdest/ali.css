@@ -1,0 +1,55 @@
+.back{
+    background-color: black;
+    padding: 40px 0px;
+}
+.iconts svg{
+    width: 40px;
+    height: 40px;
+    color: #b99272;
+}
+.iconts{
+    background-color: #0e1317;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+}
+.iconts:hover{
+    border: 1px solid  #b99272;
+   
+}
+.incrment {
+    font-size: 60px;
+    line-height: 1;
+    font-family: "Oswald";
+    color: #b99272;
+    font-weight: 300;
+    margin: 15px 0px;
+
+}
+.deskrbsin h6{
+    font-weight: 400;
+    font-family: "Oswald";
+   font-size: 24px;
+    color: #FFF;
+    line-height: 1.3;
+}
+.deskrbsin p{
+    color: #9ea1a2;
+    font-size: 15px;
+}
+@media (max-width:768px){
+    .back{
+        text-align: center;
+    }
+    .coy{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

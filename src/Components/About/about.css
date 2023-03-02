@@ -1,0 +1,192 @@
+body{
+    background-color:#0e1317 !important;
+}
+.crsel{
+    background-image: url("../../imessre/history_inner_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+ ; opacity: 0.7;
+    margin-top: 60px;
+
+}
+.vdg{
+    z-index: 3;
+}
+.opst{
+   position: relative;
+}
+.uth{
+ 
+}
+.rwr{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    height: 100%;
+}
+.vdg h1{ 
+    font-family: "Oswald";
+    font-weight: 500;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.tt a{
+   
+    color: #fff;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+.tt a:hover{
+    color: rgb(206, 146, 42) ;
+}
+.tt{
+    color: #fff; 
+    font-weight: 500;
+    font-size: 20px;
+}
+.tt span{
+    margin-left:10px ;
+}
+.pio img{
+    width: 100%;
+    height: 100%;
+}
+.angery{
+    padding: 95px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.mer{
+    margin-left: 55px;
+}
+.mer span{
+    margin-left: 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.mer h3{
+    font-size: 37px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.mer p{
+    
+    color: #fdffff97;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+.imff1 img{
+  height: 60%;
+    max-width: 100%;
+}
+.zaqyu span{
+ color: #FFF;
+ 
+}
+.zaqyu:hover{
+    background-color: #fff;
+   color: #b99272;
+}
+.zaqyu:hover span{
+     color: #b99272;
+}
+.dsw{
+    margin: 100px 0px;
+}
+/* sacsin2 */
+.sacsin2{
+    padding: 100px 0 100px 0;
+    overflow: hidden;
+
+}
+.back{
+    background: #090c0f;
+}
+.vcxa{
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+   
+}
+.iconuimg{
+    background-color:#0e1317 ;
+    border-radius: 50%;
+    text-align: center;
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    align-items: center;
+}
+.iconuimg img{
+    width: 70px;
+    height: 70px;
+}
+.cdsxr{
+    display: flex;
+    justify-content: center;
+}
+.titelimgc h5{
+    color: #FFF;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "Oswald";
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.titelimgc p{
+    color: #7a7a7a;
+}
+@media (max-width:440px){
+.crsel{
+    height: 200px;
+}
+.vdg h1 {
+  
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.tt {
+  
+    font-weight: 400;
+    font-size: 13px;
+}
+.mer {
+     margin-left: 0px; 
+}
+.mer span {
+    margin-left: 0px;
+    font-size: 14px;
+
+}
+.mer h3 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    margin-top: 9px;
+}
+.nm img {
+    width: 49px;
+    height: 50px;
+}
+.li span {
+    
+    font-size: 13px;
+}
+}
+@media (max-width:768px){
+
+}
+.dsw{
+    overflow: hidden;
+}

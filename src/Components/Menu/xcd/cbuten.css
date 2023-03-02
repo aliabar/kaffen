@@ -1,0 +1,39 @@
+.btr{
+    color: #9ea1a2;
+    background: #090c0f;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0;
+    padding: 15px 20px;
+    font-size: 20px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+.ytr{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.active{
+    color: #FFF;
+    background: #b99272;
+
+}
+.btr:focus,
+.btr::before,
+.btr::after{
+    color: #FFF;
+    background: #b99272;
+}
+
+
+@media (max-width:768px){
+    .gh a{
+   display: flex;
+   flex-direction: column;
+}
+}
+

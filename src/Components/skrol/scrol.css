@@ -1,0 +1,47 @@
+.bde{
+ text-align: end;
+}
+@media (max-width:768px){
+ .bde{
+    text-align: start;
+ }
+
+
+}
+.mk span{
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    color: #b99272;
+    margin-bottom: 30px;
+}
+.mk h3{
+    font-family: "Oswald";
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+}
+.bde button{
+    padding: 10px 9px;
+    font-size: 14px; 
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    letter-spacing: .03em;
+    color: #FFF;
+    background: #b99272;
+    border: 0;
+    border-radius: 5px;
+}
+.bde button:hover{
+    color: #b99272;
+    background: #FFF;
+    transform: translate(0,0);
+    opacity: 1;
+}
+.sectin{
+    padding: 70px 0;
+    background-image: url("../../imessre/cta_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}

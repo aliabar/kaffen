@@ -1,0 +1,61 @@
+
+.posh img{
+    width: 100%;
+    height:100%;
+    position: relative;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    border-radius: 10px;
+}
+.posh{
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    
+}
+.bordrt{
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.bfg{
+    width: 100%;
+    height: 100%;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bfg p{
+    font-size: 24px;
+        font-weight: 400; 
+        font-family: "Oswald";
+        color: #FFF;
+        line-height: 1.3;
+    display: none;
+    transition: all .7s cubic-bezier(0.3,0,.3,1);
+}
+.posh:hover .bfg p{
+    display: block;
+    
+}
+.posh:hover img{
+    transform: scale(1.05);
+    opacity: .3;
+}
+.posh:hover .bfg{
+    border: 2px solid #b99272;
+    border-radius: 10px;
+
+}
+@media (max-width:768px){
+.bordrt{
+    padding: 10px;
+}
+}
+.bvdg {
+  width: 100%;
+  height: 400px;
+  padding: 60px 0px !important;
+  background-color:#0f1315;
+}

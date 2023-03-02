@@ -1,0 +1,19 @@
+.wit img{
+    width: 126px;
+    height: 80px;
+color: black;
+opacity: 0.5;
+overflow: hidden;
+
+}
+.wit{
+    display: flex;
+    justify-content: center;
+margin-bottom: 20px;
+}
+@media (max-width:768px){
+    .wit img{
+      max-width:90px ;
+        height: 100%;
+    }
+}

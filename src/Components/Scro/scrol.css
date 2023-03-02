@@ -1,0 +1,30 @@
+.rowe {
+       font-size: 60px;
+    line-height: 1;
+    font-family: "Oswald";
+    color: #b99272;
+    font-weight: 300;
+}
+.mht{
+    align-items: center;
+    justify-content: center;
+}
+.csl{
+        margin-left: 20px;
+        margin-top: 20px;
+}
+.csl h6{
+        font-weight: 400;
+    font-family: "Oswald";
+   font-size: 24px;
+    color: #FFF;
+    line-height: 1.3;
+}
+.csl p{
+    color: #9ea1a2;
+    font-size: 15px;
+}
+.nbc{
+    padding: 30px 0px;
+    background-color: #0e1317;
+}
